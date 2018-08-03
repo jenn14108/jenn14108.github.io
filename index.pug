@@ -1,0 +1,219 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(http-equiv='X-UA-Compatible', content='IE=edge')
+  meta(name='viewport', content='width=device-width, initial-scale=1')
+  meta(name='description', content="Jennifer Lee's personal website")
+  meta(name='author', content='Jennifer Lee')
+  title Jennifer Lee
+  // Bootstrap Core CSS
+  link(rel='stylesheet', href='css/bootstrap.min.css', type='text/css')
+  // Custom Fonts
+  link(href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800', rel='stylesheet', type='text/css')
+  link(href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic', rel='stylesheet', type='text/css')
+  link(rel='stylesheet', href='font-awesome/css/font-awesome.min.css', type='text/css')
+  // Plugin CSS
+  link(rel='stylesheet', href='css/animate.min.css', type='text/css')
+  // Custom CSS
+  link(rel='stylesheet', href='css/creative.css', type='text/css')
+  // Flexslider CSS
+  link(rel='stylesheet', type='text/css', href='slick/slick.css')
+  link(rel='stylesheet', type='text/css', href='slick/slick-theme.css')
+  // HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
+  // WARNING: Respond.js doesn't work if you view the page via file://
+  //if lt IE 9
+    script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
+    script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
+nav#mainNav.navbar.navbar-default.navbar-fixed-top
+  .container-fluid
+    // Brand and toggle get grouped for better mobile display
+    .navbar-header
+      button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand.page-scroll(href='#page-top') Jennifer Lee
+    // Collect the nav links, forms, and other content for toggling
+    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+      ul.nav.navbar-nav.navbar-right
+        li
+          a.page-scroll(href='#about') About
+        li
+          a.page-scroll(href='#projects') Projects
+        li
+          a.page-scroll(href='#experience') Work Experience
+        li
+          a.page-scroll(href='#contact') Contact
+    // /.navbar-collapse
+  // /.container-fluid
+header
+  .header-content
+    .header-content-inner
+      h2 Hi, my name is
+      h1 Jennifer Lee
+      hr
+      p I am a computer science and business student in Waltham, MA.
+      a.btn.btn-primary.btn-xl.page-scroll(href='#about') Find Out More
+section#about.bg-primary
+  .container
+    .row
+      .col-lg-8.col-lg-offset-2.text-center
+        h2.section-heading Who Am I?
+        hr.light
+        p.text-faded
+          | Hello! My name is Jennifer Lee. I am currently attending Brandeis University going into my senior year working towards my bachelors degree in Computer Science and Business.
+        p.text-faded
+          | I am actively looking for full-time SDE opportunities in the Boston area beginning Summer 2019. If you would like to connect, please email me at jelee14108@brandeis.edu
+        a.btn.btn-default.btn-xl(href='#contact') Contact Me
+        hr.light
+        .row
+          .col-lg-6.col-lg-offset-3
+            img.img-responsive.img-circle(src='public/images/mypic.jpg')
+section#projects.bg-dark
+  .container
+    .row
+      .col-lg-12.text-center
+        h2.section-heading  Projects
+        hr
+  .container
+    .slick-carousel
+      .row
+        .col-lg-6
+          img.img-responsive(src='public/images/deisTransport.png')
+        .col-lg-5
+          h3(style='color:white;')  Deis Transport
+          p
+            | Deis Transport is a fast and easy to use system that allows students to take advantage of Brandeis' transportation services through an integrated GUI and VUI
+          p
+            | Deis Transport was produced as part of the Justice Brandeis Semester by 3 students. One of the students and I will be continuing this project into my senior year as an independent study.
+          p  Tools:  Heroku, MongoDB, HTML5, NodeJS, DialogFlow
+          p
+            | Repo status:
+            a(href='https://github.com/jenn14108/DeisTransportApp') Public
+      .row
+        .col-lg-6
+
+section#experience
+  .container
+    .row
+      .col-lg-12.text-center
+        h2.section-heading Work Experience
+        hr.primary
+  .container
+    .row
+      .col-lg-10.col-lg-offset-1
+        h3
+          strong  Brandeis University, Computer Science Department
+        h4
+          strong  Computer Science Teaching Assistant
+        ul
+          li
+            p  Held weekly office hours to assist students in understanding object oriented programming, data structures, and algorithms
+          li
+            p
+              | Met with students individually to discuss their assignments
+          li
+            p
+              | Graded tests, programming assignments, and problem sets for Professor Antonella DiLillo
+        br
+        h3
+          strong  KKBOX Inc.
+        h4
+          strong  Software Engineering Intern
+        ul
+          li
+            p  Designed and tested a Java program to be integrated into KKBOX’s Slack network in the form of a bot. The program assists the team in finding internal employee information needed to troubleshoot common network connectivity issues by retrieving information from the company API and parsing the XML to acquire relevant data.
+          li
+        br
+        h3
+          strong  Brandeis University, International Business School
+        h4
+          strong  Undergraduate Business Teaching Assistant
+        ul
+          li
+            p
+              | Held weekly office hours to enhance student learning
+          li
+            p  Collaborated with Professor Sava Berhané to create rubrics for various assignments
+          li
+            p  Transcribed class discussions to encourage student participation
+        br
+        h3
+          strong  Buy and Ship LLC.
+        h4
+          strong  Data Entry Clerk
+        ul
+          li
+            p
+              | Managed database of customer profiles and accounts payable
+          li
+            p
+              | Collaborated with customers to ensure timely delivery of goods
+        br
+        h3
+          strong  Fund For the Public Interest: Environment Oregon
+        h4
+          strong  Field Manager
+        ul
+          li
+            p
+              | Trained, organized, and oversaw new employees
+          li
+            p
+              | Prepared campaign materials and informed the public of pressing environmental issues
+        br
+        h3
+          strong  Formosa Plastic Corporation
+        h4
+          strong  Sales and Marketing Intern
+        ul
+          li
+            p
+              | Deposited money into company accounts; handled internal orders, online customer orders and purchases
+          li
+            p
+              | Contacted companies to discuss potential partnerships and to schedule future negotiations
+          li
+            p
+              | Utilized social media promotion to maximize buying potential
+section#contact.bg-primary
+  .container
+    .row
+      .col-lg-8.col-lg-offset-2.text-center
+        h2.section-heading Contact Me
+        hr.primary
+      .col-lg-4.text-center
+        i.fa.fa-github.fa-3x.wow.bounceIn
+        a(href='https://www.github.com/jenn14108')
+          p(style='color:white;') GitHub
+      .col-lg-4.text-center
+        i.fa.fa-envelope-o.fa-3x.wow.bounceIn(data-wow-delay='.1s')
+        a(href='mailto:jelee14108@brandeis.edu')
+          p(style='color:white;') jelee14108@brandeis.edu
+      .col-lg-4.text-center
+        a(href='https://www.linkedin.com/in/jenn14108')
+          i.fa.fa-linkedin.fa-3x.wow.bounceIn(style='color:white;')
+          p(style='color:white;')  LinkedIn
+// jQuery
+script(src='js/jquery.js')
+// Slick
+script(type='text/javascript', src='//code.jquery.com/jquery-1.11.0.min.js')
+script(type='text/javascript', src='//code.jquery.com/jquery-migrate-1.2.1.min.js')
+script(type='text/javascript', src='slick/slick.min.js')
+// Bootstrap Core JavaScript
+script(src='js/bootstrap.min.js')
+// Plugin JavaScript
+script(src='js/jquery.easing.min.js')
+script(src='js/jquery.fittext.js')
+script(src='js/wow.min.js')
+// Custom Theme JavaScript
+script(src='js/creative.js')
+script(type='text/javascript').
+  $(document).ready(function(){
+  $('.slick-carousel').slick({
+  dots: true,
+  slidesToShow: 1,
+  adaptiveHeight: true
+  });
+  });
