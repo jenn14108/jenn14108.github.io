@@ -1,2 +1,3 @@
-# jenn14108.github.io
-This is my personal website
+### jenn14108.github.io
+
+Welcome to my personal website!
