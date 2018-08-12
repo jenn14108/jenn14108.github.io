@@ -1,3 +1,3 @@
 ### jenn14108.github.io
 
-Welcome to my personal website!
+This is the repository for my personal website. It was made by utilizing the creative theme provided by Start Bootstrap!
